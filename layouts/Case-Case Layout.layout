@@ -125,10 +125,6 @@
                 <behavior>Edit</behavior>
                 <field>Level_1_Topic__c</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Call_Summary__c</field>
-            </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>
     </layoutSections>
