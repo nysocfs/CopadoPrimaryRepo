@@ -311,6 +311,30 @@
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
+        <fullName>Consulted_with__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <inlineHelpText>search for name of Supervisor, TRL, or other agent who consulted on this</inlineHelpText>
+        <label>Consulted with...</label>
+        <lookupFilter>
+            <active>true</active>
+            <errorMessage>No active user found</errorMessage>
+            <filterItems>
+                <field>User.IsActive</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Cases</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>ContactEmail</fullName>
         <trackTrending>false</trackTrending>
     </fields>
