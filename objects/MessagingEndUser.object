@@ -181,5 +181,5 @@
         <searchResultsAdditionalFields>Locale</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>MessagingConsentStatus</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>Private</sharingModel>
 </CustomObject>
