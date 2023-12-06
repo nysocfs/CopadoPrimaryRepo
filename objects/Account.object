@@ -449,6 +449,11 @@
         <label>My Accounts</label>
     </listViews>
     <recordTypes>
+        <fullName>Business</fullName>
+        <active>true</active>
+        <label>Business</label>
+    </recordTypes>
+    <recordTypes>
         <fullName>Organization</fullName>
         <active>true</active>
         <description>Use to group Organization or Institution records within the Account object</description>
