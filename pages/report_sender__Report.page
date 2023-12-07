@@ -1,0 +1,21 @@
+<apex:page controller="report_sender.ReportController"  
+readOnly="true"
+sidebar="false"    
+showHeader="false"    
+cache="true" 
+applyHtmlTag="false"   
+docType="html-5.0"
+renderAs="advanced_pdf">
+<html>
+    <head>
+        <style>
+            @page{
+            size: A4 landscape;
+            margin: 10px;
+            padding: 10px;
+            }
+        </style>
+    </head>
+    <apex:outputText value="{!reportHtml }" escape="false"/>
+</html>
+</apex:page>
