@@ -16,18 +16,6 @@
         <objectMapping>
             <inputObject>Contact</inputObject>
             <mappingFields>
-                <inputField>MailingStreet</inputField>
-                <outputField>Street</outputField>
-            </mappingFields>
-            <mappingFields>
-                <inputField>Title</inputField>
-                <outputField>Title</outputField>
-            </mappingFields>
-            <mappingFields>
-                <inputField>MailingPostalCode</inputField>
-                <outputField>PostalCode</outputField>
-            </mappingFields>
-            <mappingFields>
                 <inputField>MailingCity</inputField>
                 <outputField>City</outputField>
             </mappingFields>
@@ -50,6 +38,18 @@
             <mappingFields>
                 <inputField>Phone</inputField>
                 <outputField>Phone</outputField>
+            </mappingFields>
+            <mappingFields>
+                <inputField>MailingStreet</inputField>
+                <outputField>Street</outputField>
+            </mappingFields>
+            <mappingFields>
+                <inputField>Title</inputField>
+                <outputField>Title</outputField>
+            </mappingFields>
+            <mappingFields>
+                <inputField>MailingPostalCode</inputField>
+                <outputField>PostalCode</outputField>
             </mappingFields>
             <outputObject>Lead</outputObject>
         </objectMapping>

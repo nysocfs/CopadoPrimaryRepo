@@ -110,12 +110,14 @@
     </fields>
     <fields>
         <fullName>Bio</fullName>
+        <encryptionScheme>None</encryptionScheme>
     </fields>
     <fields>
         <fullName>ExternalId</fullName>
     </fields>
     <fields>
         <fullName>ExternalPictureURL</fullName>
+        <encryptionScheme>None</encryptionScheme>
     </fields>
     <fields>
         <fullName>Followers</fullName>
@@ -165,6 +167,7 @@
     </fields>
     <fields>
         <fullName>ProfileUrl</fullName>
+        <encryptionScheme>None</encryptionScheme>
     </fields>
     <fields>
         <fullName>Provider</fullName>
@@ -174,6 +177,7 @@
     </fields>
     <fields>
         <fullName>RealName</fullName>
+        <encryptionScheme>None</encryptionScheme>
     </fields>
     <fields>
         <fullName>SourceApp</fullName>

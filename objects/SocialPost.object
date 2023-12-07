@@ -225,6 +225,7 @@
     </fields>
     <fields>
         <fullName>AttachmentUrl</fullName>
+        <encryptionScheme>None</encryptionScheme>
     </fields>
     <fields>
         <fullName>Classification</fullName>
@@ -235,6 +236,7 @@
     </fields>
     <fields>
         <fullName>Content</fullName>
+        <encryptionScheme>None</encryptionScheme>
     </fields>
     <fields>
         <fullName>DeletedById</fullName>
@@ -249,12 +251,14 @@
     </fields>
     <fields>
         <fullName>Handle</fullName>
+        <encryptionScheme>None</encryptionScheme>
     </fields>
     <fields>
         <fullName>HarvestDate</fullName>
     </fields>
     <fields>
         <fullName>Headline</fullName>
+        <encryptionScheme>None</encryptionScheme>
     </fields>
     <fields>
         <fullName>HiddenById</fullName>
@@ -317,6 +321,7 @@
     </fields>
     <fields>
         <fullName>PostUrl</fullName>
+        <encryptionScheme>None</encryptionScheme>
     </fields>
     <fields>
         <fullName>Posted</fullName>

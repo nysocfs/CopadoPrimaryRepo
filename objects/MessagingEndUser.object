@@ -142,10 +142,12 @@
     </fields>
     <fields>
         <fullName>MessagingPlatformKey</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
         <fullName>Name</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
@@ -155,6 +157,7 @@
     </fields>
     <fields>
         <fullName>ProfilePictureUrl</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <trackHistory>false</trackHistory>
     </fields>
     <searchLayouts>

@@ -189,6 +189,7 @@
     </fields>
     <fields>
         <fullName>BillingAddress</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
     </fields>
@@ -258,6 +259,7 @@
     </fields>
     <fields>
         <fullName>ShippingAddress</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <trackFeedHistory>false</trackFeedHistory>
         <trackHistory>true</trackHistory>
     </fields>

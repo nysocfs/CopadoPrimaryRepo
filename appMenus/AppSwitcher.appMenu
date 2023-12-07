@@ -96,4 +96,8 @@
         <name>standard__PublicSector</name>
         <type>CustomApplication</type>
     </appMenuItems>
+    <appMenuItems>
+        <name>report_sender__Report_Sender</name>
+        <type>CustomApplication</type>
+    </appMenuItems>
 </AppMenu>

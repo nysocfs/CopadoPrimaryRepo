@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Dashboard Id --></label>
+        <name>report_sender__Dashboard_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Data --></label>
+        <name>report_sender__Email_Data__c</name>
+        <relationshipLabel><!-- Email Attachments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- File_Type --></label>
+        <name>report_sender__File_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Folder --></label>
+        <name>report_sender__Folder__c</name>
+    </fields>
+    <fields>
+        <label><!-- Metadata Filters --></label>
+        <name>report_sender__Metadata_Filters__c</name>
+    </fields>
+    <fields>
+        <label><!-- Named Credentials --></label>
+        <name>report_sender__Named_Credentials__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report ID --></label>
+        <name>report_sender__Report_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report Name --></label>
+        <name>report_sender__Report_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unique Key --></label>
+        <name>report_sender__Unique_Key__c</name>
+    </fields>
+</CustomObjectTranslation>

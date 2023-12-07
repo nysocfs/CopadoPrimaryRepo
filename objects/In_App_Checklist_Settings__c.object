@@ -5,6 +5,7 @@
     <enableFeeds>false</enableFeeds>
     <fields>
         <fullName>ProfileKey__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>ProfileKey</label>
         <length>255</length>
@@ -15,6 +16,7 @@
     </fields>
     <fields>
         <fullName>Sales_Cloud_In_App_Page__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Sales Cloud In App Page</label>
         <required>false</required>

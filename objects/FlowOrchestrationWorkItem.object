@@ -95,6 +95,10 @@
         <fullName>ScreenFlow</fullName>
     </fields>
     <fields>
+        <fullName>ScreenFlowInputs</fullName>
+        <encryptionScheme>None</encryptionScheme>
+    </fields>
+    <fields>
         <fullName>Status</fullName>
     </fields>
     <fields>

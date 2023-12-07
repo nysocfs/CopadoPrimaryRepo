@@ -153,6 +153,10 @@
             <field>FORECAST_CATEGORY</field>
             <label>Forecast Category</label>
         </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.SOURCE</field>
+            <label>Source</label>
+        </forecastingObjectListLabelMappings>
         <forecastingObjectListSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -192,6 +196,7 @@
             <field>00N82000000P37V</field>
             <field>00N82000000P37X</field>
             <field>00N82000000P37W</field>
+            <field>OPPORTUNITY.SOURCE</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
@@ -350,6 +355,10 @@
             <field>FORECAST_CATEGORY</field>
             <label>Forecast Category</label>
         </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.SOURCE</field>
+            <label>Source</label>
+        </forecastingObjectListLabelMappings>
         <forecastingObjectListSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -389,6 +398,7 @@
             <field>00N82000000P37V</field>
             <field>00N82000000P37X</field>
             <field>00N82000000P37W</field>
+            <field>OPPORTUNITY.SOURCE</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
@@ -551,6 +561,10 @@
             <field>FORECAST_CATEGORY</field>
             <label>Forecast Category</label>
         </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.SOURCE</field>
+            <label>Source</label>
+        </forecastingObjectListLabelMappings>
         <forecastingObjectListSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -591,6 +605,7 @@
             <field>00N82000000P37V</field>
             <field>00N82000000P37X</field>
             <field>00N82000000P37W</field>
+            <field>OPPORTUNITY.SOURCE</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
@@ -749,6 +764,10 @@
             <field>FORECAST_CATEGORY</field>
             <label>Forecast Category</label>
         </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.SOURCE</field>
+            <label>Source</label>
+        </forecastingObjectListLabelMappings>
         <forecastingObjectListSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -788,6 +807,7 @@
             <field>00N82000000P37V</field>
             <field>00N82000000P37X</field>
             <field>00N82000000P37W</field>
+            <field>OPPORTUNITY.SOURCE</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
@@ -950,6 +970,10 @@
             <field>FORECAST_CATEGORY</field>
             <label>Forecast Category</label>
         </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.SOURCE</field>
+            <label>Source</label>
+        </forecastingObjectListLabelMappings>
         <forecastingObjectListSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -990,6 +1014,7 @@
             <field>00N82000000P37V</field>
             <field>00N82000000P37X</field>
             <field>00N82000000P37W</field>
+            <field>OPPORTUNITY.SOURCE</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
@@ -1148,6 +1173,10 @@
             <field>FORECAST_CATEGORY</field>
             <label>Forecast Category</label>
         </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.SOURCE</field>
+            <label>Source</label>
+        </forecastingObjectListLabelMappings>
         <forecastingObjectListSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -1187,6 +1216,7 @@
             <field>00N82000000P37V</field>
             <field>00N82000000P37X</field>
             <field>00N82000000P37W</field>
+            <field>OPPORTUNITY.SOURCE</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
@@ -1349,6 +1379,10 @@
             <field>FORECAST_CATEGORY</field>
             <label>Forecast Category</label>
         </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.SOURCE</field>
+            <label>Source</label>
+        </forecastingObjectListLabelMappings>
         <forecastingObjectListSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -1389,6 +1423,7 @@
             <field>00N82000000P37V</field>
             <field>00N82000000P37X</field>
             <field>00N82000000P37W</field>
+            <field>OPPORTUNITY.SOURCE</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
@@ -1547,6 +1582,10 @@
             <field>FORECAST_CATEGORY</field>
             <label>Forecast Category</label>
         </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.SOURCE</field>
+            <label>Source</label>
+        </forecastingObjectListLabelMappings>
         <forecastingObjectListSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -1586,6 +1625,7 @@
             <field>00N82000000P37V</field>
             <field>00N82000000P37X</field>
             <field>00N82000000P37W</field>
+            <field>OPPORTUNITY.SOURCE</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
@@ -1748,6 +1788,10 @@
             <field>FORECAST_CATEGORY</field>
             <label>Forecast Category</label>
         </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.SOURCE</field>
+            <label>Source</label>
+        </forecastingObjectListLabelMappings>
         <forecastingObjectListSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -1788,6 +1832,7 @@
             <field>00N82000000P37V</field>
             <field>00N82000000P37X</field>
             <field>00N82000000P37W</field>
+            <field>OPPORTUNITY.SOURCE</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
@@ -1946,6 +1991,10 @@
             <field>FORECAST_CATEGORY</field>
             <label>Forecast Category</label>
         </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.SOURCE</field>
+            <label>Source</label>
+        </forecastingObjectListLabelMappings>
         <forecastingObjectListSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -1985,6 +2034,7 @@
             <field>00N82000000P37V</field>
             <field>00N82000000P37X</field>
             <field>00N82000000P37W</field>
+            <field>OPPORTUNITY.SOURCE</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
@@ -2147,6 +2197,10 @@
             <field>FORECAST_CATEGORY</field>
             <label>Forecast Category</label>
         </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.SOURCE</field>
+            <label>Source</label>
+        </forecastingObjectListLabelMappings>
         <forecastingObjectListSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -2187,6 +2241,7 @@
             <field>00N82000000P37V</field>
             <field>00N82000000P37X</field>
             <field>00N82000000P37W</field>
+            <field>OPPORTUNITY.SOURCE</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
@@ -2345,6 +2400,10 @@
             <field>FORECAST_CATEGORY</field>
             <label>Forecast Category</label>
         </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.SOURCE</field>
+            <label>Source</label>
+        </forecastingObjectListLabelMappings>
         <forecastingObjectListSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -2384,6 +2443,7 @@
             <field>00N82000000P37V</field>
             <field>00N82000000P37X</field>
             <field>00N82000000P37W</field>
+            <field>OPPORTUNITY.SOURCE</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>
@@ -2542,6 +2602,10 @@
             <field>FORECAST_CATEGORY</field>
             <label>Forecast Category</label>
         </forecastingObjectListLabelMappings>
+        <forecastingObjectListLabelMappings>
+            <field>OPPORTUNITY.SOURCE</field>
+            <label>Source</label>
+        </forecastingObjectListLabelMappings>
         <forecastingObjectListSelectedSettings>
             <field>OPPORTUNITY.NAME</field>
             <field>ACCOUNT.NAME</field>
@@ -2581,6 +2645,7 @@
             <field>00N82000000P37V</field>
             <field>00N82000000P37X</field>
             <field>00N82000000P37W</field>
+            <field>OPPORTUNITY.SOURCE</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </forecastingObjectListUnselectedSettings>

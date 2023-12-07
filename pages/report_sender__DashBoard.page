@@ -1,0 +1,38 @@
+<apex:page controller="report_sender.DashboardController"  readOnly="true"
+applyHtmlTag="false"    
+sidebar="false"    
+showHeader="false"    
+cache="true" 
+renderAs="advanced_pdf"
+docType="html-5.0">
+
+  <apex:form >
+    <apex:pageBlock >
+      <div style="margin:10px;">
+        <h2>{!dashboardName}</h2>
+      </div>
+      <div style="display:flex; flex-wrap: wrap;">
+
+        <apex:repeat value="{!imgList}" var="fileAttr">
+
+          <div style="width:100%; margin:10px 10px 20px 10px">
+            <div>
+              <h3>{!fileAttr.label}</h3>
+            </div>
+            <div style="width:50%;">
+              <apex:image value="{!fileAttr.imgurl}" style="width:100%;" />
+            </div>
+          </div>
+
+        </apex:repeat>
+
+      </div>
+      <div style="margin:10px;">
+        <apex:outputText value="{!reportHtml}" escape="false" />
+
+      </div>
+    </apex:pageBlock>
+
+  </apex:form>
+
+</apex:page>
