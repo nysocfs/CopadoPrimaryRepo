@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Email Data --></label>
+        <name>report_sender__Email_Data__c</name>
+        <relationshipLabel><!-- Schedule Logs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Email Tracking --></label>
+        <name>report_sender__Email_Tracking__c</name>
+    </fields>
+    <fields>
+        <label><!-- Error Details --></label>
+        <name>report_sender__Error_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason --></label>
+        <name>report_sender__Error_reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Execution Date --></label>
+        <name>report_sender__Execution_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Open Date --></label>
+        <name>report_sender__First_Open_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Opened --></label>
+        <name>report_sender__Is_Opened__c</name>
+    </fields>
+    <fields>
+        <label><!-- Open Rate --></label>
+        <name>report_sender__Open_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report ID --></label>
+        <name>report_sender__Report_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report Name --></label>
+        <name>report_sender__Report_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Schedule Name --></label>
+        <name>report_sender__Schedule_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>report_sender__Status__c</name>
+        <picklistValues>
+            <masterLabel>Fail</masterLabel>
+            <translation><!-- Fail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sent</masterLabel>
+            <translation><!-- Sent --></translation>
+        </picklistValues>
+    </fields>
+</CustomObjectTranslation>

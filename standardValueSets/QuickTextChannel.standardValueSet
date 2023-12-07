@@ -36,4 +36,9 @@
         <default>false</default>
         <label>Messaging</label>
     </standardValue>
+    <standardValue>
+        <fullName>Knowledge</fullName>
+        <default>false</default>
+        <label>Knowledge</label>
+    </standardValue>
 </StandardValueSet>

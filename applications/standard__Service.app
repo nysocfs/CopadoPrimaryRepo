@@ -12,4 +12,5 @@
     <tabs>standard-Dashboard</tabs>
     <tabs>standard-Chatter</tabs>
     <tabs>standard-File</tabs>
+    <tabs>Knowledge__kav</tabs>
 </CustomApplication>

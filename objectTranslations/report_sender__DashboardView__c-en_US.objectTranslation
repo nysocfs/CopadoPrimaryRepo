@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- ChartUrl --></label>
+        <name>report_sender__ChartUrl__c</name>
+    </fields>
+    <fields>
+        <label><!-- Columns --></label>
+        <name>report_sender__Columns__c</name>
+    </fields>
+    <fields>
+        <label><!-- DashboardId --></label>
+        <name>report_sender__DashboardId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dshboard_Name --></label>
+        <name>report_sender__Dshboard_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Data --></label>
+        <name>report_sender__Email_Data__c</name>
+        <relationshipLabel><!-- DashboardView --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- ReportId --></label>
+        <name>report_sender__ReportId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unique Key --></label>
+        <name>report_sender__Unique_Key__c</name>
+    </fields>
+</CustomObjectTranslation>

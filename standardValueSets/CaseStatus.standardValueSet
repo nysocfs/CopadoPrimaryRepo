@@ -25,4 +25,16 @@
         <label>New</label>
         <closed>false</closed>
     </standardValue>
+    <standardValue>
+        <fullName>Escalated to Supervisor</fullName>
+        <default>false</default>
+        <label>Escalated to Supervisor</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Open</fullName>
+        <default>false</default>
+        <label>Open</label>
+        <closed>false</closed>
+    </standardValue>
 </StandardValueSet>

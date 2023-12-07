@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Active --></label>
+        <name>report_sender__Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Status --></label>
+        <name>report_sender__Approval_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Attachment Size --></label>
+        <name>report_sender__Attachment_Size__c</name>
+    </fields>
+    <fields>
+        <help><!-- Id of cron trigger job --></help>
+        <label><!-- Cron Trigger ID --></label>
+        <name>report_sender__Cron_Trigger_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom Template --></label>
+        <name>report_sender__Custom_Template__c</name>
+        <relationshipLabel><!-- Email Data --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Dashboard ID --></label>
+        <name>report_sender__Dashboard_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>report_sender__Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do not Send without Attachment --></label>
+        <name>report_sender__Do_not_Send_without_Attachment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email BCC --></label>
+        <name>report_sender__Email_BCC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Body --></label>
+        <name>report_sender__Email_Body__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email CC --></label>
+        <name>report_sender__Email_CC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email From Address --></label>
+        <name>report_sender__Email_From_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Jobs --></label>
+        <name>report_sender__Email_Jobs__c</name>
+        <relationshipLabel><!-- Email Data --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Email TO --></label>
+        <name>report_sender__Email_TO__c</name>
+    </fields>
+    <fields>
+        <label><!-- File Type --></label>
+        <name>report_sender__File_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is UTC used --></label>
+        <name>report_sender__Is_UTC_used__c</name>
+    </fields>
+    <fields>
+        <label><!-- Job ID --></label>
+        <name>report_sender__Job_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- List View ID --></label>
+        <name>report_sender__ListViewId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Metadata Filters --></label>
+        <name>report_sender__MetadataFilters__c</name>
+    </fields>
+    <fields>
+        <label><!-- Named Credentials --></label>
+        <name>report_sender__Named_Credentials__c</name>
+    </fields>
+    <fields>
+        <label><!-- Next Send Date --></label>
+        <name>report_sender__NextSendDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Name --></label>
+        <name>report_sender__ObjectName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Email Data --></label>
+        <name>report_sender__Original_Email_Data__c</name>
+        <relationshipLabel><!-- Email Data --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Password --></label>
+        <name>report_sender__Password__c</name>
+    </fields>
+    <fields>
+        <label><!-- Password_protect --></label>
+        <name>report_sender__Password_protect__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report Folder --></label>
+        <name>report_sender__Report_Folder__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report ID --></label>
+        <name>report_sender__Report_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report Name --></label>
+        <name>report_sender__Report_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Report Type --></label>
+        <name>report_sender__Report_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scheduled Cron --></label>
+        <name>report_sender__Scheduled_Cron__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scheduled Type --></label>
+        <name>report_sender__Scheduled_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Signature --></label>
+        <name>report_sender__Signature__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>report_sender__Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subject --></label>
+        <name>report_sender__Subject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Successful Send --></label>
+        <name>report_sender__Successful_Send__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Object ID --></label>
+        <name>report_sender__TargetObjectId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Template ID --></label>
+        <name>report_sender__Template_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Don’t sent empty report --></label>
+        <name>report_sender__isChecked__c</name>
+    </fields>
+    <fields>
+        <label><!-- Save After Sent --></label>
+        <name>report_sender__isSaveAfterSent__c</name>
+    </fields>
+    <validationRules>
+        <errorMessage><!-- Please fill &quot;Email TO&quot; correctly. --></errorMessage>
+        <name>report_sender__Check_Email</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fill &quot;File Type&quot; correctly. --></errorMessage>
+        <name>report_sender__Check_File_Type</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fill &quot;Report Type&quot; correctly. --></errorMessage>
+        <name>report_sender__Check_Report_Type</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fill one of fields (Report ID, List View ID or Dashboard ID). --></errorMessage>
+        <name>report_sender__Needed_ID</name>
+    </validationRules>
+</CustomObjectTranslation>

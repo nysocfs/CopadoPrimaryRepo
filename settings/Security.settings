@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SecuritySettings xmlns="http://soap.sforce.com/2006/04/metadata">
     <canUsersGrantLoginAccess>true</canUsersGrantLoginAccess>
-    <enableAdminLoginAsAnyUser>false</enableAdminLoginAsAnyUser>
+    <enableAdminLoginAsAnyUser>true</enableAdminLoginAsAnyUser>
     <enableAuditFieldsInactiveOwner>false</enableAuditFieldsInactiveOwner>
     <enableAuraSecureEvalPref>true</enableAuraSecureEvalPref>
     <enableCoepHeader>false</enableCoepHeader>
@@ -12,11 +12,11 @@
     <networkAccess/>
     <passwordPolicies>
         <complexity>SpecialCharacters</complexity>
-        <expiration>NinetyDays</expiration>
+        <expiration>OneYear</expiration>
         <historyRestriction>3</historyRestriction>
-        <lockoutInterval>ThirtyMinutes</lockoutInterval>
-        <maxLoginAttempts>ThreeAttempts</maxLoginAttempts>
-        <minimumPasswordLength>8</minimumPasswordLength>
+        <lockoutInterval>Forever</lockoutInterval>
+        <maxLoginAttempts>FiveAttempts</maxLoginAttempts>
+        <minimumPasswordLength>14</minimumPasswordLength>
         <minimumPasswordLifetime>true</minimumPasswordLifetime>
         <obscureSecretAnswer>true</obscureSecretAnswer>
         <questionRestriction>DoesNotContainPassword</questionRestriction>
@@ -71,7 +71,7 @@
         <referrerPolicyDirective>origin-when-cross-origin</referrerPolicyDirective>
         <requireHttpOnly>true</requireHttpOnly>
         <sendCspForUncommonClients>false</sendCspForUncommonClients>
-        <sessionTimeout>TwoHours</sessionTimeout>
+        <sessionTimeout>SixtyMinutes</sessionTimeout>
         <sidToken3rdPartyAuraApp>false</sidToken3rdPartyAuraApp>
         <skipSFAWhenMFADirectUILogin>false</skipSFAWhenMFADirectUILogin>
         <useEAPIRateLimitForConnectAPI>false</useEAPIRateLimitForConnectAPI>
@@ -79,9 +79,10 @@
     </sessionSettings>
     <singleSignOnSettings>
         <enableCaseInsensitiveFederationID>false</enableCaseInsensitiveFederationID>
+        <enableForceDelegatedCallout>false</enableForceDelegatedCallout>
         <enableMultipleSamlConfigs>true</enableMultipleSamlConfigs>
         <enableSamlJitProvisioning>false</enableSamlJitProvisioning>
         <enableSamlLogin>false</enableSamlLogin>
-        <isLoginWithSalesforceCredentialsDisabled>false</isLoginWithSalesforceCredentialsDisabled>
+        <isLoginWithSalesforceCredentialsDisabled>true</isLoginWithSalesforceCredentialsDisabled>
     </singleSignOnSettings>
 </SecuritySettings>

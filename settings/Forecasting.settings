@@ -245,6 +245,10 @@
             <label>ROI Analysis Completed</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.SOURCE</field>
+            <label>Source</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <label>Last Stage Change Date</label>
         </opportunityListFieldsLabelMappings>
@@ -291,6 +295,7 @@
             <field>00N82000000P37V</field>
             <field>00N82000000P37X</field>
             <field>00N82000000P37W</field>
+            <field>OPPORTUNITY.SOURCE</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -464,6 +469,10 @@
             <label>ROI Analysis Completed</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.SOURCE</field>
+            <label>Source</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <label>Last Stage Change Date</label>
         </opportunityListFieldsLabelMappings>
@@ -510,6 +519,7 @@
             <field>00N82000000P37V</field>
             <field>00N82000000P37X</field>
             <field>00N82000000P37W</field>
+            <field>OPPORTUNITY.SOURCE</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -687,6 +697,10 @@
             <label>ROI Analysis Completed</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.SOURCE</field>
+            <label>Source</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <label>Last Stage Change Date</label>
         </opportunityListFieldsLabelMappings>
@@ -734,6 +748,7 @@
             <field>00N82000000P37V</field>
             <field>00N82000000P37X</field>
             <field>00N82000000P37W</field>
+            <field>OPPORTUNITY.SOURCE</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -907,6 +922,10 @@
             <label>ROI Analysis Completed</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.SOURCE</field>
+            <label>Source</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <label>Last Stage Change Date</label>
         </opportunityListFieldsLabelMappings>
@@ -953,6 +972,7 @@
             <field>00N82000000P37V</field>
             <field>00N82000000P37X</field>
             <field>00N82000000P37W</field>
+            <field>OPPORTUNITY.SOURCE</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -1130,6 +1150,10 @@
             <label>ROI Analysis Completed</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.SOURCE</field>
+            <label>Source</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <label>Last Stage Change Date</label>
         </opportunityListFieldsLabelMappings>
@@ -1177,6 +1201,7 @@
             <field>00N82000000P37V</field>
             <field>00N82000000P37X</field>
             <field>00N82000000P37W</field>
+            <field>OPPORTUNITY.SOURCE</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -1350,6 +1375,10 @@
             <label>ROI Analysis Completed</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.SOURCE</field>
+            <label>Source</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <label>Last Stage Change Date</label>
         </opportunityListFieldsLabelMappings>
@@ -1396,6 +1425,7 @@
             <field>00N82000000P37V</field>
             <field>00N82000000P37X</field>
             <field>00N82000000P37W</field>
+            <field>OPPORTUNITY.SOURCE</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -1573,6 +1603,10 @@
             <label>ROI Analysis Completed</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.SOURCE</field>
+            <label>Source</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <label>Last Stage Change Date</label>
         </opportunityListFieldsLabelMappings>
@@ -1620,6 +1654,7 @@
             <field>00N82000000P37V</field>
             <field>00N82000000P37X</field>
             <field>00N82000000P37W</field>
+            <field>OPPORTUNITY.SOURCE</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -1793,6 +1828,10 @@
             <label>ROI Analysis Completed</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.SOURCE</field>
+            <label>Source</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <label>Last Stage Change Date</label>
         </opportunityListFieldsLabelMappings>
@@ -1839,6 +1878,7 @@
             <field>00N82000000P37V</field>
             <field>00N82000000P37X</field>
             <field>00N82000000P37W</field>
+            <field>OPPORTUNITY.SOURCE</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -2016,6 +2056,10 @@
             <label>ROI Analysis Completed</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.SOURCE</field>
+            <label>Source</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <label>Last Stage Change Date</label>
         </opportunityListFieldsLabelMappings>
@@ -2063,6 +2107,7 @@
             <field>00N82000000P37V</field>
             <field>00N82000000P37X</field>
             <field>00N82000000P37W</field>
+            <field>OPPORTUNITY.SOURCE</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -2236,6 +2281,10 @@
             <label>ROI Analysis Completed</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.SOURCE</field>
+            <label>Source</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <label>Last Stage Change Date</label>
         </opportunityListFieldsLabelMappings>
@@ -2282,6 +2331,7 @@
             <field>00N82000000P37V</field>
             <field>00N82000000P37X</field>
             <field>00N82000000P37W</field>
+            <field>OPPORTUNITY.SOURCE</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -2459,6 +2509,10 @@
             <label>ROI Analysis Completed</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.SOURCE</field>
+            <label>Source</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <label>Last Stage Change Date</label>
         </opportunityListFieldsLabelMappings>
@@ -2506,6 +2560,7 @@
             <field>00N82000000P37V</field>
             <field>00N82000000P37X</field>
             <field>00N82000000P37W</field>
+            <field>OPPORTUNITY.SOURCE</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
@@ -2679,6 +2734,10 @@
             <label>ROI Analysis Completed</label>
         </opportunityListFieldsLabelMappings>
         <opportunityListFieldsLabelMappings>
+            <field>OPPORTUNITY.SOURCE</field>
+            <label>Source</label>
+        </opportunityListFieldsLabelMappings>
+        <opportunityListFieldsLabelMappings>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <label>Last Stage Change Date</label>
         </opportunityListFieldsLabelMappings>
@@ -2725,6 +2784,7 @@
             <field>00N82000000P37V</field>
             <field>00N82000000P37X</field>
             <field>00N82000000P37W</field>
+            <field>OPPORTUNITY.SOURCE</field>
             <field>OPPORTUNITY.LAST_STAGE_CHANGE</field>
             <field>OPPORTUNITY.PUSH_COUNT</field>
         </opportunityListFieldsUnselectedSettings>
