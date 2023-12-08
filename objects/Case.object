@@ -310,6 +310,7 @@
         <label>Consulted with...</label>
         <lookupFilter>
             <active>true</active>
+            <errorMessage>No active user found</errorMessage>
             <filterItems>
                 <field>User.IsActive</field>
                 <operation>equals</operation>
@@ -1027,6 +1028,7 @@
     </fields>
     <fields>
         <fullName>Verizon_Contact_Id__c</fullName>
+        <description>Verizon call id number</description>
         <externalId>false</externalId>
         <label>Verizon Contact Id</label>
         <length>15</length>
