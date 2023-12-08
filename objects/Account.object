@@ -364,6 +364,12 @@
         <active>true</active>
         <label>Business</label>
     </recordTypes>
+    <recordTypes>
+        <fullName>Organization</fullName>
+        <active>true</active>
+        <description>Use to group Organization or Institution records within the Account object</description>
+        <label>Organization</label>
+    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
         <customTabListAdditionalFields>ACCOUNT.ADDRESS1_CITY</customTabListAdditionalFields>
