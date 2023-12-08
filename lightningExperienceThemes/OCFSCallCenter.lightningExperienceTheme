@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningExperienceTheme xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultBrandingSet>LEXTHEMINGOCFSCallCenter</defaultBrandingSet>
+    <description>Theme including NYS Health &amp; Human Services identity, images, color scheme, etc.</description>
+    <masterLabel>OCFS Call Center</masterLabel>
+    <shouldOverrideLoadingImage>false</shouldOverrideLoadingImage>
+</LightningExperienceTheme>
