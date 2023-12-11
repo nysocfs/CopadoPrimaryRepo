@@ -5,8 +5,20 @@
         <field>AccountId</field>
         <formula>Case.AccountId</formula>
     </fieldOverrides>
+    <fieldOverrides>
+        <field>Agency__c</field>
+        <formula>TEXT(Case.Agency__c)</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Line_of_Business__c</field>
+        <formula>TEXT(Case.Line_of_Business__c)</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Verizon_Contact_Id__c</field>
+        <formula>Case.Verizon_Contact_Id__c</formula>
+    </fieldOverrides>
     <label>New Case</label>
-    <optionsCreateFeedItem>true</optionsCreateFeedItem>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
     <quickActionLayout>
         <layoutSectionStyle>TwoColumnsLeftToRight</layoutSectionStyle>
         <quickActionLayoutColumns>
@@ -36,5 +48,6 @@
     </quickActionLayout>
     <targetObject>Case</targetObject>
     <targetParentField>Parent</targetParentField>
+    <targetRecordType>Case.OCFS_Case</targetRecordType>
     <type>Create</type>
 </QuickAction>
