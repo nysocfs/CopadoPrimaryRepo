@@ -1071,6 +1071,12 @@
         </filters>
         <label>My Open Cases</label>
     </listViews>
+    <recordTypes>
+        <fullName>OCFS_Case</fullName>
+        <active>true</active>
+        <businessProcess>OCFS Call Center Support</businessProcess>
+        <label>OCFS Case</label>
+    </recordTypes>
     <searchLayouts>
         <customTabListAdditionalFields>CASES.CASE_NUMBER</customTabListAdditionalFields>
         <customTabListAdditionalFields>CASES.SUBJECT</customTabListAdditionalFields>
