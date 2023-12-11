@@ -2,15 +2,9 @@
 <StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <sorted>false</sorted>
     <standardValue>
-        <fullName>On Hold</fullName>
+        <fullName>Testing</fullName>
         <default>false</default>
-        <label>On Hold</label>
-        <closed>false</closed>
-    </standardValue>
-    <standardValue>
-        <fullName>Escalated</fullName>
-        <default>false</default>
-        <label>Escalated</label>
+        <label>Testing</label>
         <closed>false</closed>
     </standardValue>
     <standardValue>
@@ -20,9 +14,21 @@
         <closed>true</closed>
     </standardValue>
     <standardValue>
-        <fullName>New</fullName>
+        <fullName>Open</fullName>
         <default>true</default>
-        <label>New</label>
+        <label>Open</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Escalated to Supervisor</fullName>
+        <default>false</default>
+        <label>Escalated to Supervisor</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Assigned</fullName>
+        <default>false</default>
+        <label>Assigned</label>
         <closed>false</closed>
     </standardValue>
     <standardValue>
