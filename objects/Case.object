@@ -214,6 +214,22 @@
         </values>
     </businessProcesses>
     <businessProcesses>
+        <fullName>OCFS Call Center Support</fullName>
+        <isActive>true</isActive>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escalated to Supervisor</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Open</fullName>
+            <default>false</default>
+        </values>
+    </businessProcesses>
+    <businessProcesses>
         <fullName>Test</fullName>
         <description>Test</description>
         <isActive>true</isActive>
@@ -1124,6 +1140,12 @@
     </listViews>
     <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
     <recordTypeTrackHistory>true</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>OCFS_Case</fullName>
+        <active>true</active>
+        <businessProcess>OCFS Call Center Support</businessProcess>
+        <label>OCFS Case</label>
+    </recordTypes>
     <recordTypes>
         <fullName>test</fullName>
         <active>true</active>
