@@ -598,6 +598,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>EmailSingle</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>FSCAlertFrameworkUserAccess</name>
     </userPermissions>
     <userPermissions>
