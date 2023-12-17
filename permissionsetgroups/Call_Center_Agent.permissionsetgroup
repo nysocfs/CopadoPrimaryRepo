@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Provides access to Nice cti adaptor, other necessary baseline agent functions</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Call Center Agent</label>
+    <permissionSets>icAgentConsole__inContact_Agent_Permission</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>
