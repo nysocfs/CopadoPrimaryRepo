@@ -346,6 +346,62 @@
         <type>Lookup</type>
     </fields>
     <fields>
+        <fullName>Caller_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Type of Caller</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Attorney</fullName>
+                    <default>false</default>
+                    <label>Attorney</label>
+                </value>
+                <value>
+                    <fullName>Claimant</fullName>
+                    <default>false</default>
+                    <label>Claimant</label>
+                </value>
+                <value>
+                    <fullName>Employer</fullName>
+                    <default>false</default>
+                    <label>Employer</label>
+                </value>
+                <value>
+                    <fullName>Family Member/All Other</fullName>
+                    <default>false</default>
+                    <label>Family Member/All Other</label>
+                </value>
+                <value>
+                    <fullName>Health Care Provider</fullName>
+                    <default>false</default>
+                    <label>Health Care Provider</label>
+                </value>
+                <value>
+                    <fullName>Insurance Carrier</fullName>
+                    <default>false</default>
+                    <label>Insurance Carrier</label>
+                </value>
+                <value>
+                    <fullName>Record Retrieval</fullName>
+                    <default>false</default>
+                    <label>Record Retrieval</label>
+                </value>
+                <value>
+                    <fullName>Unknown</fullName>
+                    <default>false</default>
+                    <label>Unknown</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>ClosedDate</fullName>
         <trackTrending>false</trackTrending>
     </fields>
