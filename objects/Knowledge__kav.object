@@ -637,10 +637,8 @@
         <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Question</label>
-        <length>255</length>
-        <required>true</required>
-        <type>Text</type>
-        <unique>false</unique>
+        <required>false</required>
+        <type>TextArea</type>
     </fields>
     <fields>
         <fullName>Resolution_Code__c</fullName>
