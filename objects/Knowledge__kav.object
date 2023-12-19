@@ -23,21 +23,664 @@
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <fields>
+        <fullName>Agency__c</fullName>
+        <externalId>false</externalId>
+        <label>Agency</label>
+        <required>true</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>CS</fullName>
+                    <default>false</default>
+                    <label>CS</label>
+                </value>
+                <value>
+                    <fullName>DOH</fullName>
+                    <default>false</default>
+                    <label>DOH</label>
+                </value>
+                <value>
+                    <fullName>OASAS</fullName>
+                    <default>false</default>
+                    <label>OASAS</label>
+                </value>
+                <value>
+                    <fullName>OCFS</fullName>
+                    <default>false</default>
+                    <label>OCFS</label>
+                </value>
+                <value>
+                    <fullName>OCM</fullName>
+                    <default>false</default>
+                    <label>OCM</label>
+                </value>
+                <value>
+                    <fullName>OFA</fullName>
+                    <default>false</default>
+                    <label>OFA</label>
+                </value>
+                <value>
+                    <fullName>OPWDD</fullName>
+                    <default>false</default>
+                    <label>OPWDD</label>
+                </value>
+                <value>
+                    <fullName>OTDA</fullName>
+                    <default>false</default>
+                    <label>OTDA</label>
+                </value>
+                <value>
+                    <fullName>OVS</fullName>
+                    <default>false</default>
+                    <label>OVS</label>
+                </value>
+                <value>
+                    <fullName>WCB</fullName>
+                    <default>false</default>
+                    <label>WCB</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>Answer__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Answer</label>
-        <length>32768</length>
+        <length>131072</length>
         <type>Html</type>
         <visibleLines>25</visibleLines>
     </fields>
     <fields>
-        <fullName>Question__c</fullName>
-        <description>Question for FAQ</description>
+        <fullName>Article_Type__c</fullName>
         <externalId>false</externalId>
-        <label>Question</label>
-        <length>32768</length>
+        <label>Article Type</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Contact Info</fullName>
+                    <default>false</default>
+                    <label>Contact Info</label>
+                </value>
+                <value>
+                    <fullName>FAQ</fullName>
+                    <default>false</default>
+                    <label>FAQ</label>
+                </value>
+                <value>
+                    <fullName>Instructions</fullName>
+                    <default>false</default>
+                    <label>Instructions</label>
+                </value>
+                <value>
+                    <fullName>Quick Info</fullName>
+                    <default>false</default>
+                    <label>Quick Info</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Chat_Summary__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Chat Summary</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Email_Template__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Email Template</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>External_Content__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>External Content</label>
+        <length>131072</length>
         <type>Html</type>
         <visibleLines>25</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Keywords__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Keywords</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Line_of_Business__c</fullName>
+        <externalId>false</externalId>
+        <label>Line of Business</label>
+        <required>true</required>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Agency__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>55 B/C</fullName>
+                    <default>false</default>
+                    <label>55 B/C</label>
+                </value>
+                <value>
+                    <fullName>ACA Reporting</fullName>
+                    <default>false</default>
+                    <label>ACA Reporting</label>
+                </value>
+                <value>
+                    <fullName>Adult Care Facilities (ACF)</fullName>
+                    <default>false</default>
+                    <label>Adult Care Facilities (ACF)</label>
+                </value>
+                <value>
+                    <fullName>Adult Use</fullName>
+                    <default>false</default>
+                    <label>Adult Use</label>
+                </value>
+                <value>
+                    <fullName>AIH</fullName>
+                    <default>false</default>
+                    <label>AIH</label>
+                </value>
+                <value>
+                    <fullName>ARS</fullName>
+                    <default>false</default>
+                    <label>ARS</label>
+                </value>
+                <value>
+                    <fullName>BAS</fullName>
+                    <default>false</default>
+                    <label>BAS</label>
+                </value>
+                <value>
+                    <fullName>BCR</fullName>
+                    <default>false</default>
+                    <label>BCR</label>
+                </value>
+                <value>
+                    <fullName>BPS</fullName>
+                    <default>false</default>
+                    <label>BPS</label>
+                </value>
+                <value>
+                    <fullName>Bureau of Narcotic Enforcement (BNE)</fullName>
+                    <default>false</default>
+                    <label>Bureau of Narcotic Enforcement (BNE)</label>
+                </value>
+                <value>
+                    <fullName>CEH-BTSA</fullName>
+                    <default>false</default>
+                    <label>CEH-BTSA</label>
+                </value>
+                <value>
+                    <fullName>Child Care Desert Grant</fullName>
+                    <default>false</default>
+                    <label>Child Care Desert Grant</label>
+                </value>
+                <value>
+                    <fullName>Childcare Fraud Hotline</fullName>
+                    <default>false</default>
+                    <label>Childcare Fraud Hotline</label>
+                </value>
+                <value>
+                    <fullName>Child Care Stabilization</fullName>
+                    <default>false</default>
+                    <label>Child Care Stabilization</label>
+                </value>
+                <value>
+                    <fullName>Claims/C-3</fullName>
+                    <default>false</default>
+                    <label>Claims/C-3</label>
+                </value>
+                <value>
+                    <fullName>Compliance</fullName>
+                    <default>false</default>
+                    <label>Compliance</label>
+                </value>
+                <value>
+                    <fullName>Contracts</fullName>
+                    <default>false</default>
+                    <label>Contracts</label>
+                </value>
+                <value>
+                    <fullName>COVID</fullName>
+                    <default>false</default>
+                    <label>COVID</label>
+                </value>
+                <value>
+                    <fullName>Credentialing</fullName>
+                    <default>false</default>
+                    <label>Credentialing</label>
+                </value>
+                <value>
+                    <fullName>DAVE</fullName>
+                    <default>false</default>
+                    <label>DAVE</label>
+                </value>
+                <value>
+                    <fullName>De-Authorized Providers</fullName>
+                    <default>false</default>
+                    <label>De-Authorized Providers</label>
+                </value>
+                <value>
+                    <fullName>Disability</fullName>
+                    <default>false</default>
+                    <label>Disability</label>
+                </value>
+                <value>
+                    <fullName>Division of Child Care Services (DCCS)</fullName>
+                    <default>false</default>
+                    <label>Division of Child Care Services (DCCS)</label>
+                </value>
+                <value>
+                    <fullName>EISP</fullName>
+                    <default>false</default>
+                    <label>EISP</label>
+                </value>
+                <value>
+                    <fullName>Emergency Medical Services (EMS)</fullName>
+                    <default>false</default>
+                    <label>Emergency Medical Services (EMS)</label>
+                </value>
+                <value>
+                    <fullName>Employee Benefit Division (EBD)</fullName>
+                    <default>false</default>
+                    <label>Employee Benefit Division (EBD)</label>
+                </value>
+                <value>
+                    <fullName>ERPO</fullName>
+                    <default>false</default>
+                    <label>ERPO</label>
+                </value>
+                <value>
+                    <fullName>HEARS</fullName>
+                    <default>false</default>
+                    <label>HEARS</label>
+                </value>
+                <value>
+                    <fullName>HEARS Outbound</fullName>
+                    <default>false</default>
+                    <label>HEARS Outbound</label>
+                </value>
+                <value>
+                    <fullName>Hemp</fullName>
+                    <default>false</default>
+                    <label>Hemp</label>
+                </value>
+                <value>
+                    <fullName>Home Care-Hospice</fullName>
+                    <default>false</default>
+                    <label>Home Care-Hospice</label>
+                </value>
+                <value>
+                    <fullName>Hospital Intake</fullName>
+                    <default>false</default>
+                    <label>Hospital Intake</label>
+                </value>
+                <value>
+                    <fullName>Impaired Driving Services</fullName>
+                    <default>false</default>
+                    <label>Impaired Driving Services</label>
+                </value>
+                <value>
+                    <fullName>Information Line</fullName>
+                    <default>false</default>
+                    <label>Information Line</label>
+                </value>
+                <value>
+                    <fullName>Jobs/Merit</fullName>
+                    <default>false</default>
+                    <label>Jobs/Merit</label>
+                </value>
+                <value>
+                    <fullName>LEP</fullName>
+                    <default>false</default>
+                    <label>LEP</label>
+                </value>
+                <value>
+                    <fullName>Licensing</fullName>
+                    <default>false</default>
+                    <label>Licensing</label>
+                </value>
+                <value>
+                    <fullName>Mainline</fullName>
+                    <default>false</default>
+                    <label>Mainline</label>
+                </value>
+                <value>
+                    <fullName>MDO</fullName>
+                    <default>false</default>
+                    <label>MDO</label>
+                </value>
+                <value>
+                    <fullName>Medical Cannabis Program (MCP)</fullName>
+                    <default>false</default>
+                    <label>Medical Cannabis Program (MCP)</label>
+                </value>
+                <value>
+                    <fullName>Nursing Home Intake</fullName>
+                    <default>false</default>
+                    <label>Nursing Home Intake</label>
+                </value>
+                <value>
+                    <fullName>NYePay</fullName>
+                    <default>false</default>
+                    <label>NYePay</label>
+                </value>
+                <value>
+                    <fullName>OFA</fullName>
+                    <default>false</default>
+                    <label>OFA</label>
+                </value>
+                <value>
+                    <fullName>OPMC</fullName>
+                    <default>false</default>
+                    <label>OPMC</label>
+                </value>
+                <value>
+                    <fullName>Organ Donor</fullName>
+                    <default>false</default>
+                    <label>Organ Donor</label>
+                </value>
+                <value>
+                    <fullName>OVS</fullName>
+                    <default>false</default>
+                    <label>OVS</label>
+                </value>
+                <value>
+                    <fullName>Paid Family Leave (PFL)</fullName>
+                    <default>false</default>
+                    <label>Paid Family Leave (PFL)</label>
+                </value>
+                <value>
+                    <fullName>Payor Compliance</fullName>
+                    <default>false</default>
+                    <label>Payor Compliance</label>
+                </value>
+                <value>
+                    <fullName>P-EBT</fullName>
+                    <default>false</default>
+                    <label>P-EBT</label>
+                </value>
+                <value>
+                    <fullName>PIO</fullName>
+                    <default>false</default>
+                    <label>PIO</label>
+                </value>
+                <value>
+                    <fullName>Synthetic Drug</fullName>
+                    <default>false</default>
+                    <label>Synthetic Drug</label>
+                </value>
+                <value>
+                    <fullName>Veterans Clearing House</fullName>
+                    <default>false</default>
+                    <label>Veterans Clearing House</label>
+                </value>
+                <value>
+                    <fullName>Vital Records</fullName>
+                    <default>false</default>
+                    <label>Vital Records</label>
+                </value>
+                <value>
+                    <fullName>Workforce Retention Grant</fullName>
+                    <default>false</default>
+                    <label>Workforce Retention Grant</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Other</controllingFieldValue>
+                <valueName>ERPO</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CS</controllingFieldValue>
+                <valueName>55 B/C</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CS</controllingFieldValue>
+                <valueName>ACA Reporting</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CS</controllingFieldValue>
+                <valueName>ARS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CS</controllingFieldValue>
+                <valueName>Employee Benefit Division (EBD)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CS</controllingFieldValue>
+                <valueName>Jobs/Merit</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>CS</controllingFieldValue>
+                <valueName>LEP</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>DOH</controllingFieldValue>
+                <valueName>Adult Care Facilities (ACF)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>DOH</controllingFieldValue>
+                <valueName>Bureau of Narcotic Enforcement (BNE)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>DOH</controllingFieldValue>
+                <valueName>CEH-BTSA</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>DOH</controllingFieldValue>
+                <valueName>COVID</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>DOH</controllingFieldValue>
+                <valueName>DAVE</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>DOH</controllingFieldValue>
+                <valueName>De-Authorized Providers</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>DOH</controllingFieldValue>
+                <valueName>Emergency Medical Services (EMS)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>DOH</controllingFieldValue>
+                <valueName>Home Care-Hospice</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>DOH</controllingFieldValue>
+                <valueName>Hospital Intake</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>DOH</controllingFieldValue>
+                <valueName>Nursing Home Intake</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>DOH</controllingFieldValue>
+                <valueName>OPMC</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>DOH</controllingFieldValue>
+                <valueName>Organ Donor</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>DOH</controllingFieldValue>
+                <valueName>Synthetic Drug</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>DOH</controllingFieldValue>
+                <valueName>Veterans Clearing House</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>DOH</controllingFieldValue>
+                <valueName>Vital Records</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>OASAS</controllingFieldValue>
+                <valueName>Credentialing</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>OASAS</controllingFieldValue>
+                <valueName>Impaired Driving Services</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>OCFS</controllingFieldValue>
+                <valueName>AIH</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>OCFS</controllingFieldValue>
+                <valueName>BAS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>OCFS</controllingFieldValue>
+                <valueName>BCR</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>OCFS</controllingFieldValue>
+                <valueName>BPS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>OCFS</controllingFieldValue>
+                <valueName>Child Care Desert Grant</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>OCFS</controllingFieldValue>
+                <valueName>Childcare Fraud Hotline</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>OCFS</controllingFieldValue>
+                <valueName>Child Care Stabilization</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>OCFS</controllingFieldValue>
+                <valueName>Contracts</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>OCFS</controllingFieldValue>
+                <valueName>Division of Child Care Services (DCCS)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>OCFS</controllingFieldValue>
+                <valueName>HEARS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>OCFS</controllingFieldValue>
+                <valueName>HEARS Outbound</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>OCFS</controllingFieldValue>
+                <valueName>NYePay</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>OCFS</controllingFieldValue>
+                <valueName>PIO</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>OCFS</controllingFieldValue>
+                <valueName>Workforce Retention Grant</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>OCM</controllingFieldValue>
+                <valueName>Adult Use</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>OCM</controllingFieldValue>
+                <valueName>Hemp</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>OCM</controllingFieldValue>
+                <valueName>Medical Cannabis Program (MCP)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>OFA</controllingFieldValue>
+                <controllingFieldValue>OPWDD</controllingFieldValue>
+                <valueName>Mainline</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>OFA</controllingFieldValue>
+                <valueName>OFA</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>OTDA</controllingFieldValue>
+                <valueName>EISP</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>OTDA</controllingFieldValue>
+                <valueName>P-EBT</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>OVS</controllingFieldValue>
+                <valueName>OVS</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>WCB</controllingFieldValue>
+                <valueName>Licensing</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>WCB</controllingFieldValue>
+                <valueName>MDO</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>WCB</controllingFieldValue>
+                <valueName>Paid Family Leave (PFL)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>WCB</controllingFieldValue>
+                <valueName>Payor Compliance</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Question__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Question</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Resolution_Code__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Resolution Code</label>
+        <length>255</length>
+        <required>true</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Script_Name__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>Script Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <label>Knowledge</label>
     <listViews>
@@ -104,5 +747,5 @@
         <description>This can be used for simple question and answer articles</description>
         <label>FAQ</label>
     </recordTypes>
-    <searchLayouts/>
+    <searchLayouts />
 </CustomObject>
