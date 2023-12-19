@@ -222,11 +222,11 @@
         </values>
         <values>
             <fullName>Escalated to Supervisor</fullName>
-            <default>true</default>
+            <default>false</default>
         </values>
         <values>
             <fullName>Open</fullName>
-            <default>false</default>
+            <default>true</default>
         </values>
     </businessProcesses>
     <businessProcesses>
