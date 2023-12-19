@@ -2,8 +2,8 @@
 <ProfileSessionSetting xmlns="http://soap.sforce.com/2006/04/metadata">
     <externalCommunityUserIdentityVerif>false</externalCommunityUserIdentityVerif>
     <forceLogout>false</forceLogout>
-    <profile>admin</profile>
+    <profile>guest user</profile>
     <sessionPersistence>false</sessionPersistence>
-    <sessionTimeout>720</sessionTimeout>
+    <sessionTimeout>60</sessionTimeout>
     <sessionTimeoutWarning>false</sessionTimeoutWarning>
 </ProfileSessionSetting>
