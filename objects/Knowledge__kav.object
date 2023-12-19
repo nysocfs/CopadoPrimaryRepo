@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Resolution_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Resolution Code</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <recordTypes>
+        <fullName>Info_Sheet</fullName>
+        <active>true</active>
+        <description>quick Info, instructions, tabs, contact info, FAQs</description>
+        <label>Info Sheet</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Question</fullName>
+        <active>true</active>
+        <description>question and answer</description>
+        <label>Question</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Question_with_Script</fullName>
+        <active>true</active>
+        <description>Questions which necessitate script launching</description>
+        <label>Question with Script</label>
+    </recordTypes>
+</CustomObject>
