@@ -664,11 +664,10 @@
     </fields>
     <fields>
         <fullName>Resolution_Code__c</fullName>
-        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Resolution Code</label>
         <length>255</length>
-        <required>true</required>
+        <required>false</required>
         <type>Text</type>
         <unique>false</unique>
     </fields>
@@ -746,6 +745,24 @@
         <active>true</active>
         <description>This can be used for simple question and answer articles</description>
         <label>FAQ</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Info_Sheet</fullName>
+        <active>true</active>
+        <description>quick Info, instructions, tabs, contact info, FAQs</description>
+        <label>Info Sheet</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Question</fullName>
+        <active>true</active>
+        <description>question and answer</description>
+        <label>Question</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Question_with_Script</fullName>
+        <active>true</active>
+        <description>Questions which necessitate script launching</description>
+        <label>Question with Script</label>
     </recordTypes>
     <searchLayouts />
 </CustomObject>
