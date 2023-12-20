@@ -421,5 +421,5 @@
         <searchResultsAdditionalFields>ReviewedStatus</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Notes</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>Private</sharingModel>
 </CustomObject>
