@@ -379,6 +379,6 @@
         </filters>
         <label>ENCODED:{!FilterNames.Task_UnscheduledTasks}</label>
     </listViews>
-    <searchLayouts/>
-    <sharingModel>Private</sharingModel>
+    <searchLayouts />
+    <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>

@@ -440,7 +440,7 @@
         <searchResultsAdditionalFields>LEAD.STATUS</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>ReadWriteTransfer</sharingModel>
+    <sharingModel>Read</sharingModel>
     <webLinks>
         <fullName>GoogleMaps</fullName>
         <availability>online</availability>
