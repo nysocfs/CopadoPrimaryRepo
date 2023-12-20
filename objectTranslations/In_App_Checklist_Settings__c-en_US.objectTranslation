@@ -9,11 +9,11 @@
         <value>In App Checklist Settings</value>
     </caseValues>
     <fields>
-        <label><!-- ProfileKey --></label>
+        <label></label>
         <name>ProfileKey__c</name>
     </fields>
     <fields>
-        <label><!-- Sales Cloud In App Page --></label>
+        <label></label>
         <name>Sales_Cloud_In_App_Page__c</name>
     </fields>
     <startsWith>Consonant</startsWith>
