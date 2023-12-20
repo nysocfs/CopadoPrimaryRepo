@@ -340,6 +340,6 @@
         </filters>
         <label>Today&apos;s Agenda</label>
     </listViews>
-    <searchLayouts/>
-    <sharingModel>Private</sharingModel>
+    <searchLayouts />
+    <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>
