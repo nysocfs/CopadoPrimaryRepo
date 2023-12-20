@@ -7907,7 +7907,19 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
+        <name>AddAnalyticsRemoteConnections</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
         <name>AddDirectMessageMembers</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>AddWaveNotificationRecipients</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>AdminAnalyticsUser</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
@@ -8015,6 +8027,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
+        <name>CanEditDataPrepRecipe</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
         <name>CanEditPrompts</name>
     </userPermissions>
     <userPermissions>
@@ -8024,6 +8040,10 @@
     <userPermissions>
         <enabled>false</enabled>
         <name>CanInsertFeedSystemFields</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>CanManageMaps</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
@@ -8431,6 +8451,30 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
+        <name>InsightsAppAdmin</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>InsightsAppDashboardEditor</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>InsightsAppEltEditor</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>InsightsAppUploadUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>InsightsAppUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>InsightsCreateApplication</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
         <name>InteractionCalcAdminPerm</name>
     </userPermissions>
     <userPermissions>
@@ -8727,6 +8771,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
+        <name>ManageTemplatedApp</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
         <name>ManageTrustMeasures</name>
     </userPermissions>
     <userPermissions>
@@ -8927,7 +8975,15 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
+        <name>SendExternalEmailAvailable</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
         <name>SendSitRequests</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>ServiceAnalyticsUser</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
@@ -9047,11 +9103,19 @@
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
+        <name>UseSubscriptionEmails</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
         <name>UseSvcCatalog</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
         <name>UseTeamReassignWizards</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>UseTemplatedApp</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
@@ -9184,5 +9248,17 @@
     <userPermissions>
         <enabled>false</enabled>
         <name>VolunteerMgmtUserAccess</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>WaveCommunityUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>WaveManagePrivateAssetsUser</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>false</enabled>
+        <name>WaveTabularDownload</name>
     </userPermissions>
 </Profile>
