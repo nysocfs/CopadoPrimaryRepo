@@ -21,7 +21,7 @@
     <enableKnowledgeCaseRL>true</enableKnowledgeCaseRL>
     <enableKnowledgeKeywordAutoComplete>true</enableKnowledgeKeywordAutoComplete>
     <enableKnowledgeTitleAutoComplete>true</enableKnowledgeTitleAutoComplete>
-    <enableLightningKbAutoLoadRichTextField>false</enableLightningKbAutoLoadRichTextField>
+    <enableLightningKbAutoLoadRichTextField>true</enableLightningKbAutoLoadRichTextField>
     <enableLightningKnowledge>true</enableLightningKnowledge>
     <showArticleSummariesCustomerPortal>true</showArticleSummariesCustomerPortal>
     <showArticleSummariesInternalApp>true</showArticleSummariesInternalApp>
