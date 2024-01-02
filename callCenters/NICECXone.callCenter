@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CallCenter xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <adapterUrl>/apex/icagentconsole__agent</adapterUrl>
+    <customSettings>{&quot;reqSoftphoneHeight&quot;:&quot;600&quot;,&quot;reqUseApi&quot;:&quot;true&quot;,&quot;reqSoftphoneWidth&quot;:&quot;360&quot;,&quot;reqSalesforceCompatibilityMode&quot;:&quot;Lightning&quot;}</customSettings>
+    <displayName>NICE CXone</displayName>
+    <displayNameLabel>Name</displayNameLabel>
+    <internalNameLabel>Api Name</internalNameLabel>
+    <sections>
+        <items>
+            <label>CTI Adapter URL</label>
+            <name>reqAdapterUrl</name>
+            <value>/apex/icagentconsole__agent</value>
+        </items>
+        <items>
+            <label>Description</label>
+            <name>reqDescription</name>
+            <value>NICE CXone Agent</value>
+        </items>
+        <items>
+            <label>Program Id</label>
+            <name>reqProgId</name>
+            <value>NICE-CXone.SalesforceAgent.22.0</value>
+        </items>
+        <items>
+            <label>Version</label>
+            <name>reqVersion</name>
+            <value>22.0</value>
+        </items>
+        <items>
+            <label>Use OpenCTI</label>
+            <name>reqUseApi</name>
+            <value>true</value>
+        </items>
+        <items>
+            <label>Softphone Height</label>
+            <name>reqSoftphoneHeight</name>
+            <value>600</value>
+        </items>
+        <items>
+            <label>Softphone Width</label>
+            <name>reqSoftphoneWidth</name>
+            <value>360</value>
+        </items>
+        <items>
+            <label>Salesforce Compatibility Mode</label>
+            <name>reqSalesforceCompatibilityMode</name>
+            <value>Lightning</value>
+        </items>
+        <label>General Information</label>
+        <name>reqGeneralInfo</name>
+    </sections>
+    <sections>
+        <items>
+            <label>CXone System Issuer</label>
+            <name>CXoneSystemIssuer</name>
+            <value>https://cxone.niceincontact.com</value>
+        </items>
+        <items>
+            <label>CXone Tenant Id</label>
+            <name>CXoneTenantId</name>
+            <value xsi:nil="true"/>
+        </items>
+        <label>NICE CXone Settings</label>
+        <name>NICECXoneSettings</name>
+    </sections>
+    <version>22</version>
+</CallCenter>
