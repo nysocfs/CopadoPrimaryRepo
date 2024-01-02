@@ -10,10 +10,16 @@
                             <value>PrintableView</value>
                         </valueListItems>
                         <valueListItems>
+                            <value>CreateDraftFromOnlineKnowledgeArticleVersion</value>
+                        </valueListItems>
+                        <valueListItems>
+                            <value>SubmitKnowledgeArticleVersionForApproval</value>
+                        </valueListItems>
+                        <valueListItems>
                             <value>PublishKnowledgeArticleVersion</value>
                         </valueListItems>
                         <valueListItems>
-                            <value>CreateDraftFromOnlineKnowledgeArticleVersion</value>
+                            <value>ArchiveKnowledgeArticleVersion</value>
                         </valueListItems>
                         <valueListItems>
                             <value>DeleteDraftKnowledgeArticleVersion</value>
@@ -44,7 +50,7 @@
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>numVisibleActions</name>
-                    <value>3</value>
+                    <value>5</value>
                 </componentInstanceProperties>
                 <componentName>force:highlightsPanel</componentName>
                 <identifier>force_highlightsPanel</identifier>
@@ -184,7 +190,7 @@
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>feedbackFormBehavior</name>
-                    <value>Only Show After Downvote</value>
+                    <value>Always Hide</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>hideVoteCounter</name>
