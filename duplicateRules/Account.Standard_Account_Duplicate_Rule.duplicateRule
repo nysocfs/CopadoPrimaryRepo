@@ -7,7 +7,7 @@
     <duplicateRuleFilter xsi:nil="true"/>
     <duplicateRuleMatchRules>
         <matchRuleSObjectType>Account</matchRuleSObjectType>
-        <matchingRule>Standard_Account_Matching</matchingRule>
+        <matchingRule>Standard_Account_Matching_fuzzy</matchingRule>
         <objectMapping xsi:nil="true"/>
     </duplicateRuleMatchRules>
     <isActive>true</isActive>

@@ -7,12 +7,12 @@
     <duplicateRuleFilter xsi:nil="true"/>
     <duplicateRuleMatchRules>
         <matchRuleSObjectType>PersonAccount</matchRuleSObjectType>
-        <matchingRule>Standard_Person_Account_Matching</matchingRule>
+        <matchingRule>Standard_Person_Account_Matching_fuzzy</matchingRule>
         <objectMapping xsi:nil="true"/>
     </duplicateRuleMatchRules>
     <duplicateRuleMatchRules>
         <matchRuleSObjectType>Contact</matchRuleSObjectType>
-        <matchingRule>Standard_Contact_Matching</matchingRule>
+        <matchingRule>Standard_Contact_Matching_fuzzy</matchingRule>
         <objectMapping>
             <inputObject>PersonAccount</inputObject>
             <mappingFields>
