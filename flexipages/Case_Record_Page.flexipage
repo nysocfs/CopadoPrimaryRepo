@@ -13,6 +13,9 @@
                             <value>Edit</value>
                         </valueListItems>
                         <valueListItems>
+                            <value>Case.Create_New_Case</value>
+                        </valueListItems>
+                        <valueListItems>
                             <value>Case.Close_Case</value>
                         </valueListItems>
                     </valueList>
