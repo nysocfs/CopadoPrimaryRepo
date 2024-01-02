@@ -176,9 +176,6 @@
         <quickActionListItems>
             <quickActionName>Case.Close_Case</quickActionName>
         </quickActionListItems>
-        <quickActionListItems>
-            <quickActionName>NewCase</quickActionName>
-        </quickActionListItems>
     </quickActionList>
     <relatedContent>
         <relatedContentItems>
