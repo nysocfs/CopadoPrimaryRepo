@@ -34,12 +34,16 @@
     <tabs>standard-Case</tabs>
     <tabs>standard-Contact</tabs>
     <tabs>standard-Account</tabs>
+    <tabs>Knowledge__kav</tabs>
+    <tabs>afl__afl_Article_Feedback__c</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
-    <tabs>afl__afl_Article_Feedback__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningService_UtilityBar</utilityBar>
     <workspaceConfig>
+        <mappings>
+            <tab>Knowledge__kav</tab>
+        </mappings>
         <mappings>
             <tab>afl__afl_Article_Feedback__c</tab>
         </mappings>
