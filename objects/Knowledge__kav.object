@@ -765,13 +765,13 @@
     <recordTypes>
         <fullName>Info_Sheet</fullName>
         <active>true</active>
-        <description>quick Info, instructions, tabs, contact info, FAQs</description>
+        <description>Quick Info, Instructions, Tabs, Contact Info, FAQs</description>
         <label>Info Sheet</label>
     </recordTypes>
     <recordTypes>
         <fullName>Question</fullName>
         <active>true</active>
-        <description>question and answer</description>
+        <description>Question and Answer</description>
         <label>Question</label>
     </recordTypes>
     <recordTypes>
