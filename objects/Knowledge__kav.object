@@ -660,4 +660,22 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
+    <recordTypes>
+        <fullName>Info_Sheet</fullName>
+        <active>true</active>
+        <description>Quick Info, Instructions, Tabs, Contact Info, FAQs</description>
+        <label>Info Sheet</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Question</fullName>
+        <active>true</active>
+        <description>Question and Answer</description>
+        <label>Question</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Question_with_Script</fullName>
+        <active>true</active>
+        <description>Questions which necessitate script launching</description>
+        <label>Question with Script</label>
+    </recordTypes>
 </CustomObject>
