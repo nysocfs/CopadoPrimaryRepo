@@ -220,6 +220,10 @@
         <fullName>OCFS Call Center Support</fullName>
         <isActive>true</isActive>
         <values>
+            <fullName>Assigned</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Closed</fullName>
             <default>false</default>
         </values>
@@ -230,6 +234,10 @@
         <values>
             <fullName>Open</fullName>
             <default>true</default>
+        </values>
+        <values>
+            <fullName>Testing</fullName>
+            <default>false</default>
         </values>
     </businessProcesses>
     <businessProcesses>
