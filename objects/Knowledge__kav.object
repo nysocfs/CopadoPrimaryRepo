@@ -659,6 +659,22 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
+    <listViews>
+        <fullName>Articles_Pending_Review</fullName>
+        <columns>ARTICLE_NUMBER</columns>
+        <columns>TITLE</columns>
+        <columns>URL_NAME</columns>
+        <columns>VALIDATION_STATUS_ENUM</columns>
+        <columns>LAST_PUBLISHED_DATE</columns>
+        <columns>OWNER_ID</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>VALIDATION_STATUS_ENUM</field>
+            <operation>equals</operation>
+            <value>Not Validated</value>
+        </filters>
+        <label>Articles Pending Review</label>
+    </listViews>
     <recordTypes>
         <fullName>Info_Sheet</fullName>
         <active>true</active>
