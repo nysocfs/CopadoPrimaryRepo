@@ -68,6 +68,30 @@
         <label>Article Feedback - Assigned</label>
     </listViews>
     <listViews>
+        <fullName>Article_Feedback_Assigned_to_Me</fullName>
+        <columns>NAME</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>afl__Article_Title__c</columns>
+        <columns>afl__Article_Link__c</columns>
+        <columns>afl__Feedback_Reason__c</columns>
+        <columns>afl__Feedback_Status__c</columns>
+        <columns>afl__Action_Due_Date__c</columns>
+        <columns>afl__Action_Taken__c</columns>
+        <columns>afl__Action_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>afl__afl_Article_Feedback__c.afl__recordTypeGetPicklist</value>
+        </filters>
+        <filters>
+            <field>afl__Is_Current_User__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>Article Feedback Assigned to Me</label>
+    </listViews>
+    <listViews>
         <fullName>Article_Feedback_Open</fullName>
         <columns>NAME</columns>
         <columns>afl__Article_Title__c</columns>
