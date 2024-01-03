@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RemoteSiteSetting xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>NICE-inContact Auth site to authenticate user for Agent if SWA enabled</description>
+    <disableProtocolSecurity>false</disableProtocolSecurity>
+    <isActive>true</isActive>
+    <url>https://cxone-gov.niceincontact.com</url>
+</RemoteSiteSetting>
