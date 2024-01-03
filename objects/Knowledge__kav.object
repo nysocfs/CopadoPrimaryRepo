@@ -642,11 +642,10 @@
     </fields>
     <fields>
         <fullName>Resolution_Code__c</fullName>
-        <encryptionScheme>None</encryptionScheme>
         <externalId>false</externalId>
         <label>Resolution Code</label>
         <length>255</length>
-        <required>true</required>
+        <required>false</required>
         <type>Text</type>
         <unique>false</unique>
     </fields>
@@ -679,13 +678,13 @@
     <recordTypes>
         <fullName>Info_Sheet</fullName>
         <active>true</active>
-        <description>Quick Info, Instructions, Tabs, Contact Info, FAQs</description>
+        <description>quick Info, instructions, tabs, contact info, FAQs</description>
         <label>Info Sheet</label>
     </recordTypes>
     <recordTypes>
         <fullName>Question</fullName>
         <active>true</active>
-        <description>Question and Answer</description>
+        <description>question and answer</description>
         <label>Question</label>
     </recordTypes>
     <recordTypes>
