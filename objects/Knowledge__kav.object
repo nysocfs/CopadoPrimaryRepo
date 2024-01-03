@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <listViews>
+        <fullName>Articles_Pending_Review</fullName>
+        <columns>ARTICLE_NUMBER</columns>
+        <columns>TITLE</columns>
+        <columns>URL_NAME</columns>
+        <columns>VALIDATION_STATUS_ENUM</columns>
+        <columns>LAST_PUBLISHED_DATE</columns>
+        <columns>OWNER_ID</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>VALIDATION_STATUS_ENUM</field>
+            <operation>equals</operation>
+            <value>Not Validated</value>
+        </filters>
+        <label>Articles Pending Review</label>
+    </listViews>
+</CustomObject>
