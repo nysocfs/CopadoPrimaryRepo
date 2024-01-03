@@ -3,11 +3,6 @@
     <doesSendEmailToMembers>true</doesSendEmailToMembers>
     <email>a.buddharaju@salesforce.com</email>
     <name>Article Approval Queue</name>
-    <queueMembers>
-        <users>
-            <user>a.buddharaju@ocfs</user>
-        </users>
-    </queueMembers>
     <queueSobject>
         <sobjectType>KnowledgeArticleVersion</sobjectType>
     </queueSobject>
