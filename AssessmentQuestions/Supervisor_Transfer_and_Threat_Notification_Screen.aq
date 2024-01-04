@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>Supervisor Transfer and Threat Notification Steps</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>&lt;b&gt;Agent Note:&lt;/b&gt; Remain Calm
+
+If this is an OTDA-EISP call, press the record button in Verizon.
+
+&lt;img src=&quot;/resource/MaxRecordButton&quot; alt=&quot;Max Record Button&quot;&gt;
+Inform the caller that you need to escalate their concerns to a supervisor. Ask the caller to please hold while you get a supervisor on the phone and complete a warm transfer to 518-930-7217. This will route to a supervisor.
+
+You will also send an email to the HSCC Threat DL at ocfs.dl.hscc.threat@ocfs.ny.gov.
+    &lt;li&gt;The email message will launch automatically when you click on the Warm Transfer button&lt;/li&gt;
+If the caller refuses to be transferred, send an email to the HSCC Threat DL at ocfs.dl.hscc.threat@ocfs.ny.gov
+    &lt;li&gt;The email message will launch automatically when you click on the Email button&lt;/li&gt;</questionText>
+        <status>Active</status>
+        <versionNumber>14</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>Supervisor_Transfer_and_Threat_Notification_Screen</developerName>
+    <name>Supervisor Transfer and Threat Notification Screen</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

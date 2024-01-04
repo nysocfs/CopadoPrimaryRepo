@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordActionDeployment xmlns="http://soap.sforce.com/2006/04/metadata">
+    <componentName>ActionLauncher</componentName>
+    <deploymentContexts>
+        <entityName>Case</entityName>
+    </deploymentContexts>
+    <hasGuidedActions>false</hasGuidedActions>
+    <hasOmniscripts>true</hasOmniscripts>
+    <hasRecommendations>false</hasRecommendations>
+    <masterLabel>Threat Call Guide</masterLabel>
+    <selectableItems>
+        <action>ScriptThreatCallEnglish_1ny71vo7jarr1e0iru1r9auoq</action>
+        <frequentActionSequenceNbr>0</frequentActionSequenceNbr>
+        <isFrequentAction>true</isFrequentAction>
+        <type>Omniscript</type>
+    </selectableItems>
+</RecordActionDeployment>
