@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>Threat to harm Self Screen</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>&lt;b&gt;Supervisor Note:&lt;/b&gt; Gather information from the caller. Some or all may need to be asked:
+
+Have you thought about how you would do it?
+Have you thought about when you would do it?
+Do you have what you need to do it?
+Why do you feel this way? 
+
+Consult with others in the Teams chat to determine if the caller should speak with the Suicide &amp; Crisis Lifeline or if this is an emergency and authorities should be called.</questionText>
+        <status>Active</status>
+        <versionNumber>2</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>Threat_to_harm_Self_Screen</developerName>
+    <name>Threat to harm Self Screen</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>
