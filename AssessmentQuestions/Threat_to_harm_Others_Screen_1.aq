@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>Threat to harm Others Screen 1</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>&lt;b&gt;Supervisor Note:&lt;/b&gt; These are questions to ask the caller which gather information for the authorities. Some or all may need to be asked:
+ 
+&lt;li&gt;Have you thought about how you would do it?&lt;/li&gt;&lt;li&gt;Have you thought about when you would do it?&lt;/li&gt;&lt;li&gt;Do you have what you need to do it?&lt;/li&gt;&lt;li&gt;Why do you feel this way?&lt;/li&gt;
+Once the necessary questions are asked, continue with the call until the authorities arrive at the caller’s location.
+
+&lt;b&gt;Supervisor Speaks:&lt;/b&gt; What is the reason for your call today?</questionText>
+        <status>Active</status>
+        <versionNumber>2</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>Threat_to_harm_Others_Screen_1</developerName>
+    <name>Threat to harm Others Screen 1</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>
