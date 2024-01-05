@@ -1,0 +1,25 @@
+<template>
+    <lightning-record-edit-form object-api-name={objectApiName} density="comfy" onsubmit={handleSubmit} onsuccess={handleSuccess}>
+        <lightning-modal-header label={label.newCaseLabel}></lightning-modal-header>
+        <lightning-modal-body>
+            <lightning-layout multiple-rows>
+                <lightning-layout-item size="6" padding="around-small">
+                    <lightning-input-field field-name="Agency__c" value={agency}></lightning-input-field>
+                </lightning-layout-item>
+                <lightning-layout-item size="6" padding="around-small">
+                    <lightning-input-field field-name="Line_of_Business__c" value={lineOfBusiness}></lightning-input-field>
+                </lightning-layout-item>
+                <lightning-layout-item size="6" padding="around-small">
+                    <lightning-input-field field-name="Verizon_Contact_Id__c" value={verizonContactId} readonly="true"></lightning-input-field>
+                </lightning-layout-item>
+                <lightning-layout-item size="6" padding="around-small">
+                    <lightning-input-field field-name="Subject" required></lightning-input-field>
+                </lightning-layout-item>
+            </lightning-layout>
+        </lightning-modal-body>
+        <lightning-modal-footer>
+            <lightning-button class="slds-button" variant="brand" label={label.cancelLabel} onclick={handleCancel}></lightning-button>
+            <lightning-button class="slds-button slds-m-left_x-small" variant="brand" type="submit" label={label.saveLabel}></lightning-button>
+        </lightning-modal-footer>
+    </lightning-record-edit-form>
+</template>
