@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>Suicide Crisis Lifeline Screen</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>&lt;b&gt;Supervisor Speaks:&lt;/b&gt; I would like to get someone on the line from the Suicide &amp; Crisis Lifeline. They provide free and confidential emotional support to people in distress.
+
+Their number is 800-273-8255 (or 888-628-9454 for Spanish speaking callers).
+
+You can also dial 988 or text ‘Got5’ to 741741.
+
+&lt;b&gt;Supervisor Note:&lt;/b&gt; Warm transfer the call to 800-273-8255.</questionText>
+        <status>Active</status>
+        <versionNumber>2</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>Suicide_Crisis_Lifeline_Screen</developerName>
+    <name>Suicide Crisis Lifeline Screen</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>
