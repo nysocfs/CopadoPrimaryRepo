@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>Emergency Call Authorities Screen</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>&lt;b&gt;Supervisor Note:&lt;/b&gt; Operations managers will reach out to the appropriate authorities.
+
+Once the necessary questions are asked, continue with the call until the authorities arrive at the caller’s location. Try to keep the caller on the line.
+
+&lt;b&gt;Supervisor Speaks:&lt;/b&gt; What is the reason for your call today?
+
+&lt;b&gt;Supervisor Note:&lt;/b&gt; Once the call is complete, the Red Phone/Threat Template needs to be filled out as soon as possible.
+
+Once completed, e-mail the Red Phone template to the following address:ocfs.dl.hscc.operations.managers@ocfs.ny.gov</questionText>
+        <status>Active</status>
+        <versionNumber>3</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>Emergency_Call_Authorities_Screen</developerName>
+    <name>Emergency Call Authorities Screen</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>

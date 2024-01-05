@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>Warm Transfer</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>&lt;b&gt;Agent Note:&lt;/b&gt; Use the email template that popped up to send the email to the Threat DL. Please be sure to include the LOB in the body of the email that the call is on.
+
+Complete a warm transfer to 518-930-7217. 
+
+When you reach a supervisor, immediately inform the supervisor that you have a threat call.
+
+Let the supervisor know what statement the caller made and what their issue is.</questionText>
+        <status>Active</status>
+        <versionNumber>2</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>Warm_Transfer_Screen</developerName>
+    <name>Warm Transfer Screen</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>
