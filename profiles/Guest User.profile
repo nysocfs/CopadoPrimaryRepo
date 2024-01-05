@@ -3031,12 +3031,12 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Knowledge__kav.Answer__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
         <field>Knowledge__kav.Question__c</field>
-        <readable>true</readable>
+        <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
@@ -7019,9 +7019,6 @@
         <layout>QuoteLineItem-Quote Line Item Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>RecordAlert-Record Alert Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>RecurrenceSchedule-Recurrence Schedule Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -7938,9 +7935,9 @@
         <visible>false</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
-        <default>false</default>
+        <default>true</default>
         <recordType>Case.OCFS_Case</recordType>
-        <visible>false</visible>
+        <visible>true</visible>
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
@@ -9846,10 +9843,6 @@
     <userPermissions>
         <enabled>false</enabled>
         <name>SendCustomNotifications</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>SendExternalEmailAvailable</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
