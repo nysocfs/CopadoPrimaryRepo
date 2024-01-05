@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>55 B/C</label>
+                <name>X55_B_C</name>
+            </dataCategory>
+            <dataCategory>
+                <label>ACA Reporting</label>
+                <name>ACA_Reporting</name>
+            </dataCategory>
+            <dataCategory>
+                <label>ARS</label>
+                <name>ARS</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Employee Benefit Division (EBD)</label>
+                <name>Employee_Benefit_Division_EBD</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Jobs/Merit</label>
+                <name>Jobs_Merit</name>
+            </dataCategory>
+            <dataCategory>
+                <label>LEP</label>
+                <name>LEP</name>
+            </dataCategory>
+            <label>CS</label>
+            <name>CS</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Adult Care Facilities (ACF)</label>
+                <name>Adult_Care_Facilities_ACF</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Bureau of Narcotic Enforcement (BNE)</label>
+                <name>Bureau_of_Narcotic_Enforcement_BNE</name>
+            </dataCategory>
+            <dataCategory>
+                <label>CEH-BTSA</label>
+                <name>CEH_BTSA</name>
+            </dataCategory>
+            <dataCategory>
+                <label>COVID</label>
+                <name>COVID</name>
+            </dataCategory>
+            <dataCategory>
+                <label>DAVE</label>
+                <name>DAVE</name>
+            </dataCategory>
+            <dataCategory>
+                <label>De-Authorized Providers</label>
+                <name>De_Authorized_Providers</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Emergency Medical Services (EMS)</label>
+                <name>Emergency_Medical_Services_EMS</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Home Care-Hospice</label>
+                <name>Home_Care_Hospice</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Hospital Intake</label>
+                <name>Hospital_Intake</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Nursing Home Intake</label>
+                <name>Nursing_Home_Intake</name>
+            </dataCategory>
+            <dataCategory>
+                <label>OPMC</label>
+                <name>OPMC</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Organ Donor</label>
+                <name>Organ_Donor</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Synthetic Drug</label>
+                <name>Synthetic_Drug</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Vital Records</label>
+                <name>Vital_Records</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Veterans Clearing House</label>
+                <name>Veterans_Clearing_House</name>
+            </dataCategory>
+            <label>DOH</label>
+            <name>DOH</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Credentialing</label>
+                <name>Credentialing</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Impaired Driving Services</label>
+                <name>Impaired_Driving_Services</name>
+            </dataCategory>
+            <label>OASAS</label>
+            <name>OASAS</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>AIH</label>
+                <name>AIH</name>
+            </dataCategory>
+            <dataCategory>
+                <label>BAS</label>
+                <name>BAS</name>
+            </dataCategory>
+            <dataCategory>
+                <label>BCR</label>
+                <name>BCR</name>
+            </dataCategory>
+            <dataCategory>
+                <label>BPS</label>
+                <name>BPS</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Childcare Fraud Hotline</label>
+                <name>Childcare_Fraud_Hotline</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Child Care Stabilization</label>
+                <name>Child_Care_Stabilization</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Contracts</label>
+                <name>Contracts</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Division of Child Care Services (DCCS)</label>
+                <name>Division_of_Child_Care_Services_DCCS</name>
+            </dataCategory>
+            <dataCategory>
+                <label>HEARS</label>
+                <name>HEARS</name>
+            </dataCategory>
+            <dataCategory>
+                <label>HEARS Outbound</label>
+                <name>HEARS_Outbound</name>
+            </dataCategory>
+            <dataCategory>
+                <label>NYePay</label>
+                <name>NYePay</name>
+            </dataCategory>
+            <dataCategory>
+                <label>PIO</label>
+                <name>PIO</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Workforce Retention Grant</label>
+                <name>Workforce_Retention_Grant</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Child Care Desert Grant</label>
+                <name>Child_Care_Desert_Grant</name>
+            </dataCategory>
+            <label>OCFS</label>
+            <name>OCFS</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Adult Use</label>
+                <name>Adult_Use</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Hemp</label>
+                <name>Hemp</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Medical Cannabis Program (MCP)</label>
+                <name>Medical_Cannabis_Program_MCP</name>
+            </dataCategory>
+            <label>OCM</label>
+            <name>OCM</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Office of Family Assistance</label>
+                <name>Office_of_Family_Assistance</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Mainline</label>
+                <name>Mainline</name>
+            </dataCategory>
+            <label>OFA</label>
+            <name>OFA</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Information Line</label>
+                <name>Information_Line</name>
+            </dataCategory>
+            <label>OPWDD</label>
+            <name>OPWDD</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>EISP</label>
+                <name>EISP</name>
+            </dataCategory>
+            <dataCategory>
+                <label>P-EBT</label>
+                <name>P_EBT</name>
+            </dataCategory>
+            <label>OTDA</label>
+            <name>OTDA</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Office of Victim Services</label>
+                <name>Office_of_Victim_Services</name>
+            </dataCategory>
+            <label>OVS</label>
+            <name>OVS</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Claims/C-3</label>
+                <name>Claims_C_3</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Compliance</label>
+                <name>Compliance</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Disability</label>
+                <name>Disability</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Licensing</label>
+                <name>Licensing</name>
+            </dataCategory>
+            <dataCategory>
+                <label>MDO</label>
+                <name>MDO</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Paid Family Leave (PFL)</label>
+                <name>Paid_Family_Leave_PFL</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Payor Compliance</label>
+                <name>Payor_Compliance</name>
+            </dataCategory>
+            <label>WCB</label>
+            <name>WCB</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>ERPO</label>
+                <name>ERPO</name>
+            </dataCategory>
+            <label>Other</label>
+            <name>Other</name>
+        </dataCategory>
+        <label>All</label>
+        <name>All</name>
+    </dataCategory>
+    <description>Hierarchical classification of articles by Agency. Used to organize NYS knowledge-base and providing a way to secure access to the content.</description>
+    <label>Agency</label>
+    <objectUsage>
+        <object>SvcCatalogItemDef</object>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>
