@@ -1306,27 +1306,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>CalcProcStepRelationship.CalcProcVersionId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>CalcProcStepRelationship.Description</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>CalcProcStepRelationship.Label</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>CalcProcStepRelationship.Namespace</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>CalcProcStepRelationship.Priority</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1421,22 +1401,12 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>CalculationMatrixVersion.GroupKey</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>CalculationMatrixVersion.GroupKeyValue</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>CalculationMatrixVersion.IsEnabled</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>CalculationMatrixVersion.MatrixType</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1452,11 +1422,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>CalculationMatrixVersion.StartDateTime</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>CalculationMatrixVersion.SubGroupKey</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1796,11 +1761,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Case.ClosedOnCreate</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Case.Consulted_with__c</field>
         <readable>false</readable>
     </fieldPermissions>
@@ -1992,16 +1952,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>ChangeRequest.FinalReviewNotes</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ChangeRequest.RelatedIssueAutonumberMaster</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>ChangeRequest.RelatedItemAutonumberMaster</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2866,11 +2816,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>EngagementInteraction.MappedState</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>EngagementInteraction.PhoneNumber</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -3116,11 +3061,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
-        <field>Idea.Attachment</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
         <field>Idea.Status</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -3182,11 +3122,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Incident.PriorityOverrideReason</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Incident.RelatedItemAutonumberMaster</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3441,11 +3376,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>MessagingEndUser.IsOptedOut</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>MessagingEndUser.LeadId</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -3462,421 +3392,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>MessagingSession.OpportunityId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataPack.ActionType</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataPack.ActivationStatus</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataPack.AsyncApexJobIdentifier</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataPack.AsyncJobStatus</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataPack.Component</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataPack.Description</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataPack.IsAddedToMultiPack</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataPack.MultiPackUpdatedById</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataPack.MultiPackUpdatedDateTime</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataPack.ProcessStatus</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataPack.Source</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataPack.Version</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransform.BatchSize</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransform.Description</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransform.ExpectedInputJson</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransform.ExpectedInputOtherData</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransform.ExpectedInputXml</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransform.ExpectedOutputJson</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransform.ExpectedOutputOtherData</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransform.ExpectedOutputXml</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransform.GlobalKey</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransform.InputParsingClass</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransform.InputType</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransform.IsActive</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransform.IsAssignmentRulesUsed</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransform.IsDeletedOnSuccess</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransform.IsErrorIgnored</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransform.IsFieldLevelSecurityEnabled</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransform.IsNullInputsIncludedInOutput</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransform.IsProcessSuperBulk</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransform.IsRollbackOnError</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransform.IsSourceObjectDefault</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransform.IsXmlDeclarationRemoved</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransform.OutputParsingClass</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransform.OutputType</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransform.OverrideKey</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransform.PreprocessorClassName</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransform.PreviewJsonData</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransform.PreviewOtherData</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransform.PreviewSourceObjectData</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransform.PreviewXmlData</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransform.RequiredPermission</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransform.ResponseCacheTtlMinutes</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransform.ResponseCacheType</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransform.SourceObject</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransform.SynchronousProcessThreshold</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransform.TargetOutputDocumentIdentifier</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransform.TargetOutputFileName</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransform.XmlOutputTagsOrder</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransformItem.DefaultValue</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransformItem.FilterDataType</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransformItem.FilterGroup</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransformItem.FilterOperator</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransformItem.FilterValue</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransformItem.FormulaConverted</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransformItem.FormulaExpression</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransformItem.FormulaResultPath</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransformItem.FormulaSequence</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransformItem.GlobalKey</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransformItem.InputFieldName</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransformItem.InputObjectName</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransformItem.InputObjectQuerySequence</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransformItem.IsDisabled</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransformItem.IsRequiredForUpsert</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransformItem.IsUpsertKey</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransformItem.LinkedFieldName</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransformItem.LinkedObjectSequence</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransformItem.LookupByFieldName</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransformItem.LookupObjectName</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransformItem.LookupReturnedFieldName</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransformItem.MigrationAttribute</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransformItem.MigrationCategory</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransformItem.MigrationGroup</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransformItem.MigrationKey</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransformItem.MigrationPattern</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransformItem.MigrationProcess</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransformItem.MigrationType</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransformItem.MigrationValue</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransformItem.OutputCreationSequence</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransformItem.OutputFieldFormat</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransformItem.OutputFieldName</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransformItem.OutputObjectName</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniDataTransformItem.TransformValueMappings</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -3911,87 +3426,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>OmniProcess.CustomHtmlTemplates</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniProcess.CustomJavaScript</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniProcess.Description</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniProcess.ElementTypeComponentMapping</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniProcess.IsActive</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniProcess.IsIntegrationProcedure</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniProcess.IsMetadataCacheDisabled</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniProcess.IsOmniScriptEmbeddable</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniProcess.IsTestProcedure</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniProcess.IsWebCompEnabled</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>OmniProcess.Language</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniProcess.LastPreviewPage</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniProcess.OmniProcessKey</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniProcess.OverrideKey</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniProcess.PropertySetConfig</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniProcess.RequiredPermission</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniProcess.ResponseCacheType</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -4002,116 +3437,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>OmniProcess.Type</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniProcess.WebComponentKey</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniProcessCompilation.Content</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniProcessCompilation.Sequence</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniProcessElement.Description</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniProcessElement.EmbeddedOmniScriptKey</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniProcessElement.IsActive</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniProcessElement.IsOmniScriptEmbeddable</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniProcessElement.Level</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniProcessElement.OmniProcessVersionNumber</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniProcessElement.ParentElementName</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniProcessElement.ParentElementType</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniProcessElement.PropertySetConfig</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniProcessElement.SequenceNumber</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniProcessTransientData.AsyncApexJobIdentifier</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniProcessTransientData.AsyncTransactionIdentifier</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniProcessTransientData.AsyncTransactionStatus</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniProcessTransientData.ErrorMessage</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniProcessTransientData.GlobalKey</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniProcessTransientData.InputData</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniProcessTransientData.ProcessKey</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniProcessTransientData.ProcessMetadata</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniProcessTransientData.ProcessStatus</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -4202,56 +3527,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>OmniScriptSavedSession.StatusCategory</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniUiCard.ClonedFromOmniUiCardKey</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniUiCard.DataSourceConfig</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniUiCard.Description</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniUiCard.IsActive</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniUiCard.IsTrackingEnabled</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniUiCard.OmniUiCardKey</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniUiCard.OverrideKey</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniUiCard.PropertySetConfig</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniUiCard.SampleDataSourceResponse</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>OmniUiCard.StylingConfiguration</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -4716,11 +3991,6 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>PersonLifeEvent.LocationId</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>PersonLifeEvent.RelatedPersonId</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4752,11 +4022,6 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Problem.PriorityOverrideReason</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>Problem.RelatedItemAutonumberMaster</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -7048,24 +6313,6 @@
         <layout>AuthLocationAccessSchedule-Authorization Location Access Schedule Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>BenefitAssignment-Benefit Assignment Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Budget-Budget Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>BudgetAllocation-Budget Allocation Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>BudgetCategory-Budget Category Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>BudgetCategoryValue-Budget Category Value Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>BudgetPeriod-Budget Period Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>BusRegAuthTypeDependency-Business Regulatory Authorization Type Dependency Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -7120,9 +6367,6 @@
         <layout>CampaignMember-Campaign Member Page Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>CarePlan-Care Plan Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Case-Case Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -7133,31 +6377,10 @@
         <layout>CaseClose-Close Case Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>CaseEpisode-Case Episode Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>CaseInteraction-Case Feed Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>CaseMilestone-Case Milestone Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>CaseParticipant-Case Participant Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>CaseProceeding-Case Proceeding Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>CaseProceedingComplaint-Case Proceeding Complaint Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>CaseProceedingInfraction-Case Proceeding Infraction Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>CaseProceedingParticipant-Case Proceeding Participant Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>CaseProceedingResult-Case Proceeding Result Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>CollaborationGroup-Group Layout</layout>
@@ -7197,15 +6420,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>EmailMessage-Email Message Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>EmpUserProvisionProcessErr-Employee User Provisioning Process Error Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>EmpUserProvisioningProcess-Employee User Provisioning Process Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>Employee-Employee Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>EngagementInteraction-Engagement Interaction Layout</layout>
@@ -7250,12 +6464,6 @@
         <layout>GnrcVstTaskContextRelation-Generic Visit Task Context Relation Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>GoalAssignment-Goal Assignment Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>GoalDefinition-Goal Definition Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Idea-Idea Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -7266,12 +6474,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>InspectionType-Inspection Type Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>InterestTag-Interest Tag Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>InternalOrganizationUnit-Internal Organization Unit Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Knowledge__kav-Knowledge Layout</layout>
@@ -7404,9 +6606,6 @@
         <layout>SessionHijackingEventStore-Session Hijacking Event Store Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Shift-Shift Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>SignatureTask-Signature Task Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -7420,12 +6619,6 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>SvcCatalogRequest-Service Catalog Request Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>TagCategory-Tag Category Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>TagCategoryAssignment-Tag Category Assignment Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Task-Task Layout</layout>
@@ -7852,9 +7045,6 @@
     </objectPermissions>
     <objectPermissions>
         <object>JournalType</object>
-    </objectPermissions>
-    <objectPermissions>
-        <object>Knowledge__ka</object>
     </objectPermissions>
     <objectPermissions>
         <allowCreate>false</allowCreate>
@@ -8375,11 +7565,6 @@
     </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
-        <recordType>Idea.InternalIdeasIdeaRecordType</recordType>
-        <visible>false</visible>
-    </recordTypeVisibilities>
-    <recordTypeVisibilities>
-        <default>false</default>
         <recordType>PersonAccount.PersonAccount</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
@@ -8388,10 +7573,6 @@
         <recordType>afl__afl_Article_Feedback__c.afl__recordTypeGetPicklist</recordType>
         <visible>false</visible>
     </recordTypeVisibilities>
-    <tabVisibilities>
-        <tab>Knowledge__kav</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
     <tabVisibilities>
         <tab>afl__afl_Article_Feedback__c</tab>
         <visibility>Hidden</visibility>
@@ -8525,14 +7706,6 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-CalculationMatrix</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-CalculationProcedure</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>standard-Campaign</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
@@ -8625,16 +7798,8 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
-        <tab>standard-DocumentDecisionRequirement</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
         <tab>standard-DocumentEnvelope</tab>
         <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>standard-DocumentGenerationProcess</tab>
-        <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-DocumentRecipient</tab>
@@ -10248,10 +9413,6 @@
     <userPermissions>
         <enabled>false</enabled>
         <name>SendCustomNotifications</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>false</enabled>
-        <name>SendExternalEmailAvailable</name>
     </userPermissions>
     <userPermissions>
         <enabled>false</enabled>
