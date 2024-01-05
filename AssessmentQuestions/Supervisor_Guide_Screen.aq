@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>Supervisor Guide Screen</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>&lt;b&gt;Supervisor Note:&lt;/b&gt; Once you have taken over the call, send out an alert in the Threat Chat in Teams. 
+
+Share any details including the name and location of the caller in case authorities need to be notified.
+
+Supervisor Speaks: Hi, my name is ______________, I’m a supervisor in the unit.
+
+May I please have your name?
+
+Can I have your phone number and where you are calling from in case we get disconnected?
+
+I do have to address the statement you made to the representative which was _____________. Can I ask what you meant by that statement?</questionText>
+        <status>Active</status>
+        <versionNumber>4</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>Supervisor_Guide_Screen</developerName>
+    <name>Supervisor Guide Screen</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>
