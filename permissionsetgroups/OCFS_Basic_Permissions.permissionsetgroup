@@ -4,7 +4,6 @@
     <hasActivationRequired>false</hasActivationRequired>
     <label>OCFS Basic Permissions</label>
     <permissionSets>CCR_Permissions</permissionSets>
-    <permissionSets>afl__ArticleFeedback</permissionSets>
     <permissionSets>force__DocGenUser</permissionSets>
     <status>Updated</status>
 </PermissionSetGroup>
