@@ -428,6 +428,16 @@
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
+                    <name>deploymentId</name>
+                    <value>ThreatCallguide</value>
+                </componentInstanceProperties>
+                <componentName>industries_service_excellence:actionLauncher</componentName>
+                <identifier>industries_service_excellence_actionLauncher</identifier>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
                     <name>context</name>
                     <value>RECORD</value>
                 </componentInstanceProperties>

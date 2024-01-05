@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssessmentQuestion xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assessmentQuestionVersion>
+        <isActive>true</isActive>
+        <name>Empathetic Statements</name>
+        <optionSourceResponseValue>false</optionSourceResponseValue>
+        <questionText>&lt;li&gt;I can understand how frustrating it is when__________.&lt;/li&gt;
+&lt;li&gt;I’m so sorry to hear that ________________________.&lt;/li&gt;
+&lt;li&gt;I’m sorry you are having this problem. Let’s see what we can do to help the situation.&lt;/li&gt;</questionText>
+        <status>Active</status>
+        <versionNumber>1</versionNumber>
+    </assessmentQuestionVersion>
+    <dataType>TextBlock</dataType>
+    <developerName>Empathetic_Statements</developerName>
+    <name>Empathetic Statements</name>
+    <questionCategory>Demographic</questionCategory>
+</AssessmentQuestion>
