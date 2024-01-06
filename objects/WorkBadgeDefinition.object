@@ -206,5 +206,5 @@
         <searchResultsAdditionalFields>DESCRIPTION</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>CREATEDBY_USER.ALIAS</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>Read</sharingModel>
+    <sharingModel>Private</sharingModel>
 </CustomObject>
