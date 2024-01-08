@@ -3,7 +3,11 @@
     <hasActivationRequired>false</hasActivationRequired>
     <label>SODA Team Permission Group</label>
     <permissionSets>SODA_Team_Permissions</permissionSets>
+    <permissionSets>Single_Sign_On_Enabled</permissionSets>
     <permissionSets>afl__ArticleFeedback</permissionSets>
     <permissionSets>force__DocGenDesigner</permissionSets>
+    <permissionSets>force__IndustriesServiceExcellence</permissionSets>
+    <permissionSets>force__OmniStudioAdmin</permissionSets>
+    <permissionSets>force__OmniStudioExecution</permissionSets>
     <status>Updated</status>
 </PermissionSetGroup>
