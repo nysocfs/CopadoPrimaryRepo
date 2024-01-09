@@ -3,8 +3,4 @@
     <hasActivationRequired>false</hasActivationRequired>
     <label>Single Sign-On Enabled</label>
     <license>Salesforce</license>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>IsSsoEnabled</name>
-    </userPermissions>
 </PermissionSet>
