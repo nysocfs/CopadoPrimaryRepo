@@ -130,12 +130,14 @@
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>Private</externalSharingModel>
     <searchLayouts>
-        <customTabListAdditionalFields>OmniScriptLocaleCode</customTabListAdditionalFields>
-        <customTabListAdditionalFields>IsContentEncoded</customTabListAdditionalFields>
-        <customTabListAdditionalFields>LastSavedDateTime</customTabListAdditionalFields>
-        <searchResultsAdditionalFields>OmniScriptLocaleCode</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>IsContentEncoded</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>LastSavedDateTime</searchResultsAdditionalFields>
+        <customTabListAdditionalFields>LastModifiedDate</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LastModifiedBy</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>LastModifiedDate</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>LastModifiedBy</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>LastModifiedDate</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>LastModifiedBy</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>LastModifiedDate</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LastModifiedBy</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>
 </CustomObject>
